@@ -10,7 +10,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/hamam.jpeg" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/hamam.png" alt="" />
         </div>
         <div className='relative'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
@@ -18,7 +18,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/7ale.jpeg" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/7ale.png" alt="" />
         </div>
         <div className='relative'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
@@ -26,7 +26,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/soap.jpeg" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/Images/soap.png" alt="" />
         </div>
     </div>
   )

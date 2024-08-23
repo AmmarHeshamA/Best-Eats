@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from './src/assets/hamam.png'
-import img2 from './src/assets/7ale.png'
-import img3 from './src/assets/soap.png'
+import img1 from '../src/assets/hamam.png'
+import img2 from '../src/assets/7ale.png'
+import img3 from '../src/assets/soap.png'
 
 function HeadlineCard() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import img4 from './src/assets/pexels-photo-1640774.png'
+import img4 from '../src/assets/pexels-photo-1640774.png'
 
 
 function Hero() {

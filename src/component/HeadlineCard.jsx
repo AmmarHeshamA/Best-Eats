@@ -1,4 +1,7 @@
 import React from 'react'
+import img1 from './src/assets/hamam.png'
+import img2 from './src/assets/7ale.png'
+import img3 from './src/assets/soap.png'
 
 function HeadlineCard() {
   return (
@@ -10,7 +13,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/assets/hamam.png" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src={img1} alt="" />
         </div>
         <div className='relative'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
@@ -18,7 +21,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/assets/7ale.png" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src={img2} alt="" />
         </div>
         <div className='relative'>
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
@@ -26,7 +29,7 @@ function HeadlineCard() {
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
             </div>
-            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src="/src/assets/soap.png" alt="" />
+            <img className='max-h-[168px] md:max-h-[200px] w-full object-cover rounded-xl' src={img3} alt="" />
         </div>
     </div>
   )
